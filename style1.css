@@ -1,0 +1,23 @@
+body{
+    background:linear-gradient((white,10%),(rgb(176, 240, 240),55%),(rgb(120, 253, 253),25%),(cyan,25%));
+    color: blue;
+    text-align: left;
+    padding: 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: blue;
+}
+
+.navbar-inverse { 
+    background:linear-gradient(white,rgb(176, 240, 240),rgb(138, 240, 240),rgb(103, 238, 238),cyan)!important; 
+}
+
+.navbar-inverse .navbar-brand{
+    color:blue;
+}
+
+#Intro{
+    font-size: large;
+}
+
+

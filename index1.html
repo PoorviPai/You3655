@@ -1,0 +1,160 @@
+<html>
+<head>
+    <title>You365</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <section class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand"  href="#">You365</a>
+        </section>
+
+        <section id="myNavbar">
+            <ul class="nav navbar-nav" id="id1">
+                <li><a href="#sleep data">Sleep Data</a></li>
+                <li><a href="#nutritional food">Nutritional Food</a></li>
+                <li><a href="#outdoor activity">Outdoor Activity</a></li>
+                <li><a href="#parental stress">Parental Stress</a></li>
+                <li><a href="#Goals">Goals</a></li>
+                <li><a href="#TimeM">Time Management</a></li>
+                <li><a href="#M&e">Motivation and Effort</a></li>
+            </ul>
+            <br>
+            <br>
+        </section>
+        <section class="page-header" id="Intro">
+            <h3>Introduction</h3>
+            <h4>When a student is unable to score well, many problems arise in the student’s mind, whether he can achieve his ambition<br>and whether he can take care of his family. These questions also pop up in the parent’s minds. There are many reasons<br> why a student is unable to score well. So we have made a website which creates a timetable based on <br>sleeping hours, playtime, food, and sports. He/she might face these issues -</h4>
+            <ul>
+                <li>Improper Sleep</li>
+                <li>Lack of nutritious food</li>
+                <li>Lack of proper outdoor activities</li>
+                <li>Parental Pressure</li>
+                <li>Lack of commitment</li>
+                <li>Lack of goals</li>
+                <li>Improper time management</li>
+                <li>Lack of motivation and effort </li>
+            </ul>
+        </section>
+
+        <section class="page-header" id="sleep data">
+            <h2 class="text-capitalize">sleep data</h2>
+            <h3 class="text-capitalize">Know your number of sleep hours required</h3>
+            <h4>Many students do not sleep properly. Thus, they cannot concentrate in class. The minimum time for teenagers <br>is 8-10 per day. This will give the mind and body rest for enough time and you stay alert during classes.</h4>
+            <br>
+            <h4>Enter Your age:</h4>
+            <input type="Enter your age:" id="text1">
+            <br>
+            <br>
+            <button id="btnSleep" onclick="sleepNow()">Click here</button>
+            <h3 id="output1"></h3>
+        </section>
+            <div class="announcement">
+                <marquee id="marqueeStyle" onmouseover="this.stop();"></marquee>
+            </div>
+        <br>
+        <section class="page-header" id="nutritional food">
+            <h2 class="text-capitalize">nutritious food</h2>
+            <h3 class="text-capitalize">Know what nutritious food is required for you.</h3>
+            <h4>Teenagers eat junk food, like street food, fast food, etc. They eat this kind of food and often get sick.<br> Thus, they will not be able to attend classes or concentrate. It is important to have a balanced, nutritional diet.</h4>
+            <br>
+            <h4>Enter Your age:</h4>
+            <input type="Enter your age:" id="text2">
+            <br>
+            <br>
+            <button id="btnNfood" onclick="nfood()">Click here</button>
+            <h3 id="output2"></h3>
+        </section>
+            <div class="announcement">
+                <marquee id="marqueeStyle" onmouseover="this.stop();"></marquee>
+            </div>
+            <br>
+        <section class="page-header" id="outdoor activity">
+            <h2 class="text-capitalize">outdoor activity</h2>
+            <h3 class="text-capitalize">know the number of hours you should play</h3>
+            <h4>Some students who keep studying in their rooms, do not get a chance to come out and play. They might be the<br> topper of the class or school, thus it causes their body to deform. They might get occasional body cramps or<br> body pains from sitting in one place for a long period. Come out, take a stroll or play something, develop a hobby, etc.</h4>
+            <br>
+            <h4>Enter Your age:</h4>
+            <input type="Enter your age:" id="text3">
+            <br>
+            <br>
+            <button id="btnOA" onclick="outdoor()">Click here</button>
+            <h3 id="output3"></h3>
+        </section>
+            <div class="announcement">
+                <marquee id="marqueeStyle" onmouseover="this.stop();"></marquee>
+            </div>
+            <br>    
+        <section class="page-header" id="parental stress">
+            <h2 class="text-capitalize">parental pressure</h2>
+            <h3 class="text-capitalize">know how to deal with parental Pressure</h3>
+            <h4>Parents who force their children to study and pressurize them creates a lack of courage. They get <br>scared sometimes, thinking of what they will have to say to their parents and what their parents will tell them.</h4>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LJLlPuCrUJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+            <div class="announcement">
+                <marquee id="marqueeStyle" onmouseover="this.stop();"></marquee>
+            </div>
+            <br> 
+        <section class="page-header" id="Goals">
+            <h2 class="text-capitalize">goals</h2>
+            <h3 class="text-capitalize">know your goals</h3>
+            <h4>Some students, who do not like studying or are too confident often are unable to score well in their exams. These<br> students have to dedicate their time to studying hard. Some are into talking whereas, some are into the new and <br>latest memes and trends, etc. Some dream of having luxurious cars, houses, private jets, etc. but there are only a<br> few who work hard for their dreams.Some are not sure what their ambitions are. At one point they want to become a <br>doctor, the next, they want to be a pilot. They keep doing this until they are blank about what to do.</h4>
+            <br>
+            <h4>Enter Your age:</h4>
+            <input type="Enter your age:" id="text4">
+            <br>
+            <br>
+            <button id="btnGoals" onclick="goals()">Click here</button>                
+            <h3 id="output4"></h3>
+        </section>
+            <div class="announcement">
+                <marquee id="marqueeStyle" onmouseover="this.stop();"></marquee>
+            </div>
+            <br>  
+        <section class="page-header" id="TimeM">
+            <h2 class="text-capitalize">time management</h2>
+            <h3 class="text-capitalize">Learn to manage your time </h3>
+            <h4>Time management is a process of planning and exercising conscious control of time spent on specific activities, especially <br> to increase effectiveness, efficiency, and productivity. Time management is a huge challenge for some people.Waking up on<br> time, eating on time, studying on time, TV time, or sports time. </h4>
+            <br>
+            <h4>Enter Your age:</h4>
+            <input type="Enter your age:" id="text5">
+            <br>
+            <br>
+            <button id="btnTimeM" onclick="timeM()">Click here</button>                
+            <h3 id="output5"></h3>
+        </section>
+            <div class="announcement">
+                <marquee id="marqueeStyle" onmouseover="this.stop();"></marquee>
+            </div>
+            <br>      
+        <section class="page-header" id="M&e">
+            <h2 class="text-capitalize">motivation and effort</h2>
+            <h3 class="text-capitalize">get motivated and know how much effort is needed</h3>
+            <h4>Some parents often do not care about a student’s exam results or the parents often do not help out and always staying mad at them also discourages them. The children also get angry and do not study. This is also a reason why he/she is unable to score well.Many students do not have the courage to prove them wrong.They need a little more effort in doing so.</h4>
+            <br>
+            <h4>Enter Your age:</h4>
+            <input type="Enter your age:" id="text6">
+            <br>
+            <br>
+            <button id="btnMotiva" onclick="motivation()">Click here</button>                
+            <h3 id="output6"></h3>
+        </section>
+            <div class="announcement">
+                <marquee id="marqueeStyle" onmouseover="this.stop();"></marquee>
+            </div>
+            <br>    
+        <script src="main1.js"></script>
+        </nav>
+        </body>
+        </html>
