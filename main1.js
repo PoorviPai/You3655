@@ -1,4 +1,5 @@
 function sleepNow(){
+    text1=document.getElementById("text1").value;
     if(text1==1 || text1==2 || text1==3){
         document.getElementById("output1").innerHTML = "Your child should sleep for 11-14 hrs";
     }
@@ -12,6 +13,7 @@ function sleepNow(){
 
 
 function nfood(){
+    text2=document.getElementById("text2").value;
     if(text2 == 4||text2 == 5|| text2 ==6){
         document.getElementById("output2").innerHTML = "Your child should eat fresh vegetables and fruits, low-fat dairy products, lean proteins (beans, tofu, eggs), and whole-grain cereals and bread.";
     }
@@ -21,6 +23,7 @@ function nfood(){
 }
 
 function outdoor(){
+    text3=document.getElementById("text3").value;
     if(text3 == 4||text3==5||text3==6){
         document.getElementById("output3").innerHTML = "Your child can play Water balloon,Chalk obstacle course,Hula hoop race & catch,Treasure hunt,Toy-made obstacle course,Kitchen utensil,bubble wands.";
     }
@@ -30,6 +33,7 @@ function outdoor(){
 }
 
 function goals(){
+    text4=document.getElementById("text4").value;
     if(text4 == 4||text4 ==5||text4 ==6){
         document.getElementById("output4").innerHTML = "Your child's goals should be Sing songs,Skip and hop on one foot,Catch and throw a ball overhand,Walk downstairs alone,Draw a person with three separate body parts,Build a block tower with 10 blocks,Understand the difference between fantasy and reality,Draw a circle and square.";
     }
@@ -39,6 +43,7 @@ function goals(){
 }
 
 function timeM(){
+    text5=document.getElementById("text5").value;
     if(text5 == 4||text5 ==5||text5==6){
         document.getElementById("output5").innerHTML = "Your child can have time management by Making It Fun. Start Young,Measure Time,Create a Family Calendar,Create Individual Calendars,Stay on Task,Don't Overschedule,Schedule Free Time.";
     }
@@ -48,6 +53,7 @@ function timeM(){
 }
 
 function motivation(){
+    text6=document.getElementById("text6").value;
     if (text6 ==1||text6==2||text6==3){
         document.getElementById("output6").innerHTML = "Your child can get motivated by Encouraging them to play more games and learn more words."
     }
